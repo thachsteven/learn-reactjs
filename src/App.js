@@ -5,6 +5,7 @@ import AlbumFeature from './features/Album/index';
 import CounterFeature from './features/Counter/index';
 import ProductFeature from './features/Product/index';
 import TodoFeature from './features/Todo/index';
+import CardFeature from './features/Cart/index';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/todos" component={TodoFeature} />
         <Route path="/albums" component={AlbumFeature} />
         <Route path="/products" component={ProductFeature} />
+        <Route path="/cart" component={CardFeature} />
 
         <Route component={NotFound} />
 

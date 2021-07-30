@@ -2,7 +2,6 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import { Avatar, Button, LinearProgress } from '@material-ui/core';
 import { Typography } from '@material-ui/core/';
 import { LockOutlined } from '@material-ui/icons';
-// import InputField from 'components/form-controls/InputField';
 import PropTypes from 'prop-types';
 import React from 'react';
 import { useForm } from 'react-hook-form';
